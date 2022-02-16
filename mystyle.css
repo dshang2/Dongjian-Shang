@@ -13,3 +13,34 @@ body {
     font-family: Arial;
     margin-left: 20px;
   }
+
+  nav{
+    background-color: #cc0000;
+    padding: 5px;
+  }
+  
+  nav ul{
+    list-style-type: none;
+    display: inline;
+    font-family: arial;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+  }
+  
+  nav a{
+    color: white;
+  }
+  
+  @media (max-width: 768px){
+    nav ul{
+      display: block;
+    }
+    nav li{
+      margin: auto;
+      padding: 10px;
+      text-align: center;
+    }
+    
+  }
