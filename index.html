@@ -20,7 +20,7 @@
     </nav>
 
   <h1>Dongjian Shang</h1>
-  <h3><em>Computer & Network Engineering Instructor</em> </h3>
+  <h3><em>Computer and Network Engineering Instructor</em> </h3>
   <br>
 
   <div class="card">
@@ -41,5 +41,74 @@
    <li><a href="https://info.flipgrid.com/" target="_blank">Flipgrid</a>- Share your thoughts and reflections on a brief video</li>
 
   </ul>
+  <br>
+  <h2> Demographics Form </h2>
+  <h5> Parents please fill out this form so I will have your contact information.</h5>
+  <br>
+  
+  <form>
+    
+      <div class="form-group">
+      <label for="name">Student's Name</label>
+      <input type="text" class="form-control" id="name" name="name">
+    </div>
+    
+    <div class="form-group">
+      <label for="exampleInputEmail1">Parent Email address</label>
+      <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="Enter email">
+      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+    
+        <div class="form-group">
+      <label for="phone">Parent phone number</label>
+      <input type="text" class="form-control" id="phone" name="phone">
+    </div>
+  
+    <div class="form-group">
+      <label for="message">Any information I need to know about the student</label>
+      <textarea id="message" rows="5" cols="40" class="form-control" name="message" ></textarea>
+    </div>
+    <button class="btn btn-lg btn-primary">Submit Form</button>
+  </form>
+  
+  <div class="modal" tabindex="-1" role="dialog" id="form-success">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title text-success">Form Submitted</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Your form has been submitted. We will get back to you as soon as possible.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="modal" tabindex="-1" role="dialog" id="form-fail">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title text-danger">Form Error</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Your form could not be submitted. Please check all fields and try again.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script language="JavaScript" src="JS/demographics.js"></script>
 </body>
 </html>
