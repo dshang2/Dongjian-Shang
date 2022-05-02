@@ -23,6 +23,10 @@ body {
     margin-left: 20px;
   }
 
+  p.ex1 {
+    margin-left: 20px;
+  }
+
   nav{
     background-color: #cc0000;
     padding: 5px;
